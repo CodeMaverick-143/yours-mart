@@ -1,7 +1,7 @@
 # NightPass — Club Pass Marketplace
 
 ## One-liner
-A modern platform to buy, sell, and verify club passes online with secure QR-based entry, built using the PERN stack, Prisma, and Supabase (Google OAuth).
+A modern platform to buy, sell, and verify club passes online with secure QR-based entry, built using the ERN stack, Prisma, and Supabase (Google OAuth).
 
 ---
 
