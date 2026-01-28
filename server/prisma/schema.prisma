@@ -22,6 +22,9 @@ model User {
   createdAt DateTime @default(now())
 
   orders Order[]
+
+  clubId String?
+  club   Club?   @relation(fields: [clubId], references: [id])
 }
 
 model Club {
@@ -31,6 +34,7 @@ model Club {
   verified Boolean @default(false)
 
   events Event[]
+  admins User[]
 }
 
 model Event {
