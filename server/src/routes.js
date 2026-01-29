@@ -1,4 +1,4 @@
-import {Router} from "express";
+import { Router } from "express";
 import authRoutes from "./modules/auth/auth.routes.js";
 import clubRoutes from "./modules/clubs/club.routes.js";
 import eventRoutes from "./modules/events/event.routes.js";
@@ -11,13 +11,12 @@ import { requireAuth } from "./middlewares/auth.js";
 const router = Router();
 
 
-// Health Port is made for making this active when added with UptimeRobot 
-router.get("/health",(_,res)=>{
+router.get("/health", (_, res) => {
     res.status(200)
 })
 
 
-router.use("/auth",authRoutes);
+router.use("/auth", authRoutes);
 
 router.use(requireAuth);
 
