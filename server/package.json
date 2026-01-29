@@ -1,14 +1,27 @@
 {
   "name": "qrazy",
   "version": "1.0.0",
-  "description": "",
+  "description": "Qrazy - The Future of Nightlife",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "Qrazy",
+    "club passes",
+    "nightlife events",
+    "party tickets",
+    "QR entry passes",
+    "club entry app",
+    "nightclub tickets",
+    "event entry QR",
+    "party events near me",
+    "verified club passes",
+    "no screenshot entry",
+    "Gen Z nightlife"
+  ],
+  "author": "Arpit Sarang",
+  "license": "MIT",
   "type": "module",
   "dependencies": {
     "@faker-js/faker": "^10.2.0",

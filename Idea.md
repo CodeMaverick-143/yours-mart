@@ -1,4 +1,4 @@
-# NightPass — Club Pass Marketplace
+# Qrazy — Club Pass Marketplace
 
 ## One-liner
 A modern platform to buy, sell, and verify club passes online with secure QR-based entry, built using the ERN stack, Prisma, and Supabase (Google OAuth).
@@ -17,7 +17,7 @@ Clubs lose control, users lose money, and entry management breaks down.
 ---
 
 ## Solution
-NightPass is a digital marketplace where:
+Qrazy is a digital marketplace where:
 - Clubs list verified events and passes
 - Users purchase passes online
 - QR codes are used for secure, one-time entry
